@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.header{
+color: black;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+padding-left: 95px;
+}
+
+.help{
+    color: black;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.nav-search{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin-top: 25px;
+    color: black;
+
+}
+
+.nav-items{
+    display: flex;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    padding-left: 200px;
+    margin-top: 25px;
+}
+.Bookss{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 75px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.related-books{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: large;
+}
+.View{
+text-decoration: none;
+color: blue;
+font-size: x-small;
+}
+
+.fiction{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.real{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.Rachel{
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.frame-flex{
+    display: flex;
+    gap: 5px;
+    margin-left: 25%;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.Your-Order{
+  display: flex;
+  gap: 20px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  color: #F06D82;
+}
+
+.card i {
+  font-size: 32px;
+  color: #0078D4;                                                                               
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p {
+  font-size: 14px;
+  color:black;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+  font-size: small;
+  color: red;
+  border-radius: 50px;
+  padding-right: 35px;
+  padding-left: 35px;
+  border-color: red;
+  background-color: white;
+  margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+.curve{
+    background-color: #1D1213;
+    height: 450px;
+    margin-top: 40px;
+    position: relative;
+}
+.c-pink{
+position: absolute;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.flex{
+    padding-top: 250px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 80px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.list{
+    list-style-type: none;
+    align-content: center;
+}
+
+.flexx{
+    padding-top: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 90px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.login{
+    color: white;
+    background-color: #F06D82;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: grab;
+    border: none;
+}
+.login:hover {
+    color: #F06D82;
+    background-color: white;
+}

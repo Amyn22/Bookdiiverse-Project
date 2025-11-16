@@ -1,0 +1,246 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.header{
+color: black;
+text-decoration: none;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 25px;
+padding-left: 95px;
+}
+
+.help{
+  color: black;
+  display: flex;
+  gap: 15px;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-search{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin-top: 25px;
+    color: black;
+
+}
+
+.nav-items{
+    display: flex;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    padding-left: 200px;
+    margin-top: 25px;
+}
+
+.progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 20px;
+}
+.step {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #ccc;;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+}
+.step-current{
+color: black;
+font-weight: bold;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Bee-Dee{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.producttotal{
+  word-spacing: 920px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ila{
+  text-align: justify;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  width: 92%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cal{
+padding-left: 95px;
+}
+.total-flex{
+display: flex;
+padding-left: 95px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+gap: 880px;
+text-align: right;
+}
+.ilaa{
+text-align: justify;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  width: 100%; 
+}
+.left{
+text-align: left;
+}
+.illa{
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+  width: 92%;
+  margin-left: 96px;
+  margin-right: 96px;
+}
+.total-fleex{
+display: flex;
+padding-left: 95px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+gap: 890px;
+text-align: right;
+}
+.product-total{
+  word-spacing: 955px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    margin-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Shipping{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tags{
+    font-size: 10px;
+    margin-left: 35%;
+}
+.help{
+    text-decoration: none;
+    color: rgb(0, 81, 255);
+}
+
+.F-N{
+    padding-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-left: 4px;
+}
+.next{
+    color: white;
+    background-color: #F06D82;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: grab;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.C-S{
+  color: black;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: grab;
+    border-color: #F06D82;
+    font-weight: 600;
+}
+
+.C-SS{
+  color: white;
+    background-color: #F06D82;
+    border-radius: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    cursor: grab;
+    font-weight: 600;
+    border: none;
+}
+.order-flex{
+  display: flex;
+  gap: 160px;
+  text-align: center;
+  margin-left: 30%;
+}
+.terms{
+  color: red;
+}
+.double-color{
+  font-size: x-small;
+}
+
+
+
+
+
+.curve{
+    background-color: #1D1213;
+    height: 450px;
+    margin-top: 40px;
+    position: relative;
+}
+.c-pink{
+position: absolute;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.flex{
+    padding-top: 250px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 80px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px; 
+}
+
+.list{
+    list-style-type: none;
+    align-content: center;
+}
+
+.flexx{
+    padding-top: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 90px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.big-box{
+    width: 500px;
+    height: 150px;
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+.para-1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+font-size: xx-large;
+margin-top: 20px;
+}
+
+.Submit{
+    color: white;
+    background-color: #F06D82;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: grab;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+
+
+.curve{
+    background-color: #1D1213;
+    height: 450px;
+    margin-top: 40px;
+    position: relative;
+}
+.c-pink{
+position: absolute;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+.flex{
+    padding-top: 250px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 80px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.list{
+    list-style-type: none;
+    align-content: center;
+}
+
+.flexx{
+    padding-top: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 90px;
+    line-height: 1.8;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.login{
+    color: white;
+    background-color: #F06D82;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: grab;
+    border: none;
+}
+.login:hover {
+    color: #F06D82;
+    background-color: white;
+    font-size: larger;
+}
